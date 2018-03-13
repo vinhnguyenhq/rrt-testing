@@ -1,5 +1,5 @@
 export interface Base {
   id: number
   created: Date
-  updated: Date
+  updated: Date | null
 }
